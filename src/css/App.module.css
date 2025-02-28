@@ -1,6 +1,4 @@
-.movie_wrap {
-    padding-top: 50px;
-}
+.movie_wrap {}
 
 .movies {
     width: 100%;
@@ -9,11 +7,6 @@
     justify-content: space-between;
     padding: 0 100px;
     box-sizing: border-box;
-}
-
-.movies>div:hover img {
-    scale: 1.025;
-    transition: .3s;
 }
 
 .movies>div {

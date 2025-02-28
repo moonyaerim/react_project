@@ -1,9 +1,15 @@
 .moive_contents {
     position: relative;
+    cursor: pointer;
 }
 
 .movie_img {
     position: relative;
+}
+
+.moive_contents:hover .movie_img img {
+    scale: 1.025;
+    transition: .3s;
 }
 
 .movie_img::after {
@@ -40,6 +46,7 @@
     transform: translate(-50%, -50%);
     display: none;
     transition: .3s;
+    text-align: center;
 }
 
 .moive_contents h2 {

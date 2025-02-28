@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Header from "../components/Header";
 import Movie from "../components/Movie";
 import styles from "../css/App.module.css";
 import "../css/Reset.css";
@@ -18,6 +19,8 @@ function Home() {
     console.log(movies)
     return (
         <div>
+            <Header />
+
             {loading ? <h1 className="font_white">Loading...</h1> :
                 <div className={`${styles.movie_wrap}`}>
                     <div className={styles.movies}>{movies.map(movie =>

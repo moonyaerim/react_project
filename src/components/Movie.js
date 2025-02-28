@@ -19,12 +19,13 @@ function Movie({ id, coverImg, title, genres }) {
     }
 
     return (
-        <div onClick={onClick} style={{ cursor: "pointer" }}>
+        <div onClick={onClick}>
             {detail ? <Detail
                 data={movieDetail}
                 rating={movieDetail.rating}
                 medium_cover_image={movieDetail.medium_cover_image}
                 title={movieDetail.title}
+                genres={movieDetail.genres}
             /> :
                 <div className={styles.moive_contents}>
                     {/* <Link to={`/movie/${id}`}> */}
@@ -33,11 +34,11 @@ function Movie({ id, coverImg, title, genres }) {
                     </div>
                     <div className={styles.movie_tit}>
                         <h2 className="font_white">{title}</h2>
-                        <ul className="font_white">
+                        {/* <ul className="font_white">
                             {genres.map(g => (
                                 <li className="font_gray" key={g}>{g}</li>
                             ))}
-                        </ul>
+                        </ul> */}
                     </div>
                     {/* </Link> */}
                 </div>

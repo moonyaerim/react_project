@@ -68,7 +68,7 @@ img {
 
 body {
     font-family: 'NotoSansKR-Regular';
-    background-color: #222;
+    background-color: #0e0e0e;
 }
 
 h2 {
@@ -78,7 +78,7 @@ h2 {
 
 /* 배경색 */
 .bgc_black {
-    background-color: #222;
+    background-color: #0e0e0e;
 }
 
 /* 글자색 */
@@ -88,4 +88,9 @@ h2 {
 
 .font_gray {
     color: #bbbbbb;
+}
+
+/* 폰트 */
+.noto_light {
+    font-family: 'NotoSansKR-Light';
 }
