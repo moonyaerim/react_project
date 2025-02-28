@@ -1,0 +1,24 @@
+.movie_wrap {
+    padding-top: 50px;
+}
+
+.movies {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+
+.movies>div:hover img {
+    scale: 1.025;
+    transition: .3s;
+}
+
+.movies>div {
+    width: 18.4%;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
