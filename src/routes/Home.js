@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Header from "../components/Header";
 import Movie from "../components/Movie";
+import Slide from "../components/Slide";
 import styles from "../css/App.module.css";
 import "../css/Reset.css";
 import "../css/common.css";
@@ -22,16 +23,21 @@ function Home() {
             <Header />
 
             {loading ? <h1 className="font_white">Loading...</h1> :
-                <div className={`${styles.movie_wrap}`}>
-                    <div className={styles.movies}>{movies.map(movie =>
-                        <Movie
-                            key={movie.id}
-                            id={movie.id}
-                            coverImg={movie.medium_cover_image}
-                            title={movie.title}
-                            genres={movie.genres}
-                        />
-                    )}
+
+                <div>
+                    <Slide />
+
+                    <div className={`${styles.movie_wrap}`}>
+                        <div className={styles.movies}>{movies.map(movie =>
+                            <Movie
+                                key={movie.id}
+                                id={movie.id}
+                                coverImg={movie.medium_cover_image}
+                                title={movie.title}
+                                genres={movie.genres}
+                            />
+                        )}
+                        </div>
                     </div>
                 </div>
             }

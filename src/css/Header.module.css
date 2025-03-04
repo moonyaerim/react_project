@@ -14,3 +14,15 @@
 .headerwrap svg path {
     fill: rgb(229, 9, 20);
 }
+
+@media screen and (max-width: 768px) {
+    .headerwrap {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .headerwrap {
+        padding: 0 20px;
+    }
+}

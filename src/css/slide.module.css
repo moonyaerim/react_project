@@ -1,0 +1,22 @@
+.slide {
+    color: #fff;
+    padding: 0 100px 30px;
+
+}
+
+.slide img {
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    .slide {
+        padding: 0 50px 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .slide {
+        padding: 0 20px 20px;
+    }
+}

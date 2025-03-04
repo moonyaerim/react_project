@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { ReactComponent as Reservation } from "../assets/logo.svg";
 import styles from "../css/Header.module.css"
 
-<Reservation />;
+{/* <Reservation />; */ }
 
 function Header() {
     return (
