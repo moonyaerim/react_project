@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_project/static/css/main.36a62151.css",
-    "main.js": "/react_project/static/js/main.e54ded41.js",
+    "main.css": "/react_project/static/css/main.ce014c8b.css",
+    "main.js": "/react_project/static/js/main.c68a181e.js",
     "static/media/NotoSansKR-Thin.ttf": "/react_project/static/media/NotoSansKR-Thin.3c76aeeeb0d5302e0042.ttf",
     "static/media/NotoSansKR-ExtraLight.ttf": "/react_project/static/media/NotoSansKR-ExtraLight.a8d29999646a399fbca4.ttf",
     "static/media/NotoSansKR-Light.ttf": "/react_project/static/media/NotoSansKR-Light.eef1c4b85baf52cc28a7.ttf",
@@ -11,13 +11,16 @@
     "static/media/NotoSansKR-ExtraBold.ttf": "/react_project/static/media/NotoSansKR-ExtraBold.a30f1f0b3b461fff07a7.ttf",
     "static/media/NotoSansKR-SemiBold.ttf": "/react_project/static/media/NotoSansKR-SemiBold.cffe4dcd89082d2d3f3b.ttf",
     "static/media/NotoSansKR-Black.ttf": "/react_project/static/media/NotoSansKR-Black.3a04960e264ac5544a85.ttf",
+    "static/media/img2.png": "/react_project/static/media/img2.4cf4f3035b29355e1fc4.png",
+    "static/media/img3.jpg": "/react_project/static/media/img3.eb2d6b8934fd6e7fc923.jpg",
+    "static/media/img1.jpg": "/react_project/static/media/img1.a55134becaad1e098aa3.jpg",
     "static/media/logo.svg": "/react_project/static/media/logo.6ff3658010a15ab3da65bad3d6df2ee2.svg",
     "index.html": "/react_project/index.html",
-    "main.36a62151.css.map": "/react_project/static/css/main.36a62151.css.map",
-    "main.e54ded41.js.map": "/react_project/static/js/main.e54ded41.js.map"
+    "main.ce014c8b.css.map": "/react_project/static/css/main.ce014c8b.css.map",
+    "main.c68a181e.js.map": "/react_project/static/js/main.c68a181e.js.map"
   },
   "entrypoints": [
-    "static/css/main.36a62151.css",
-    "static/js/main.e54ded41.js"
+    "static/css/main.ce014c8b.css",
+    "static/js/main.c68a181e.js"
   ]
 }
